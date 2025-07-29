@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+
+    <style>
+
+        .widget {
+            padding: 5px 5px ;
+            color: #303030;
+            text-align: center;
+                max-width: 95%;
+            margin: auto;
+            font-variant-caps: petite-caps;
+            font-size: 2em;
+            font-family: Courier, monospace;
+
+        }
+
+        div {
+             width: 95%;
+             min-height: 100px;
+
+            background:
+                linear-gradient(to right, #808080 4px, transparent 4px) 0 0,
+                linear-gradient(to right, #808080  4px, transparent 4px) 0 100%,
+                linear-gradient(to left, #808080  4px, transparent 4px) 100% 0,
+                linear-gradient(to left, #808080  4px, transparent 4px) 100% 100%,
+                linear-gradient(to bottom, #808080  4px, transparent 4px) 0 0,
+                linear-gradient(to bottom, #808080  4px, transparent 4px) 100% 0,
+                linear-gradient(to top, #808080  4px, transparent 4px) 0 100%,
+                linear-gradient(to top, #808080  4px, transparent 4px) 100% 100%;
+
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+}
+
+     
+    </style>
+</head>
+<body>
+
+    <div class="widget" id="widget"></div>
+
+<script type="text/javascript">
+
+Quotation=new Array()
+Quotation[0] = "When you're standing on the edge. So young and hopeless. Got demons in your head. We are We are the colors in the dark (We Are - ONE OK ROCK)";
+Quotation[1] = "Never tell yourself. You should be someone else. Stand up tall and say. I'm not afraid, I'm not afraid (We Are - ONE OK ROCK)";
+Quotation[2] = "ソレを信じ、続けている姿. それこそ僕らが望むべき世界. と気付くことができたなら (Si podemos darnos cuenta de que creer en eso y continuar haciéndolo es el mundo que debemos desear) (Clock Strikes - ONE OK ROCK)";
+Quotation[3] = "That we could make forever after all. Finding the gold in our darkest moments. Watching the roads turning into white roses (Cinderblock Garden - All time low)";
+Quotation[4] = "Take all the ghosts and all those skeletons you hide. And bury them deep beneath the ground. Let them rest. 'Cause you weren't meant to bear that burden. Look at the roses in your garden. You can breathe now and forget (Cinderblock Garden - All time low) ";
+Quotation[5] = "I gotta say it's hard to be brave. When you're alone in the dark. I told myself that I wouldn't be scared But I'm still having nightmares (Nightmares - All time low)";
+Quotation[6] = "Maybe it's not my weekend but it's gonna be my year. And I'm so sick of watching while the minutes pass as I go nowhere. And this is my reaction to everything I fear. 'Cause I've been going crazy, I don't wanna waste another minute here (Weigthless - All Time Low)";
+Quotation[7] = "あふれだす情熱を胸に どこまでも行くよ. まだ見ぬヒカリ 求め (Con pasión desbordante en mi corazón, iré a cualquier parte, buscando la luz que aún no he visto.) (Hikari e - Babystars)";
+Quotation[8] = "When you're at the end of the road. And you lost all sense of control. And your thoughts have taken their toll. When your mind breaks the spirit of your soul. Your faith walks on broken glass And the hangover doesn't pass.  Nothing's ever built to last (21 guns - Green day)" ;
+Quotation[9] = "'Cause you know it's what you're good at. The low road for the fast track, make every second last 'Cause you know it's what you're good at. The low road for the fast track, make every second last (Dear Maria, Count me in - All Time Low)";
+Quotation[10] = "Sometimes it's a battle, At times it's a war, But you're never defenseless. Sometimes we all lose strength. Please don't lose your faith (Madness - Sleeping With Sirens)";
+Quotation[11] = "After our time has passed, We're like light through stained glass, We go on and on and on, In the end we're never gone (Madness - Sleeping With Sirens)";
+Quotation[12] = "I will be yours to trust, this is not the last of us. We go on and on and on, In the end we're never gone or erased (Madness - Sleeping With Sirens)";
+Quotation[13] = "You're always laughing (ha, ha). And telling me to get my shit together The weather's not so bad in here. Happy days are closer (closer). You still find a way to keep me smiling. You're so inspiring (Killing ur vibe - All Time Low)";
+Quotation[14] = "Hope you know that I'm trying. Trying to keep my shit together. In a world that wants to tear us all apart (Kill ur vibe - All Time Low)";
+Quotation[15] = "Now I'm drowning, I'm sinking, it's good to feel something And I (I wanna fly) Wanna burn, I wanna die for cheap thrills again and tell me I'm alive (tell me i'm alive - All Time Low)";
+Quotation[16] = "How the kingdom lights shined just for me and you And I was screaming, 'Long live all the magic we made' And bring on all the pretenders, I'm not afraid (Long Live - Taylor Swift TV)";
+Quotation[17] = "I'm wonderstruck, dancing around all alone. I'll spend forever wondering if you knew. I was enchanted to meet you (Encahnted - Taylor Swift TV)";
+Quotation[18] = "My demons follow me wherever I go. They wanna remind me daily that I'm not in control.  And I wish they would just go get a life of their own 'Cause I need the company, but not the shade that they throw (The sound of letting go - All Time Low)";
+Quotation[19] = "And snakes and stones never broke my bones so (You need to calm down - Taylor Swift)";
+Quotation[20] = "I lose my voice when I look at you. Can't make a noise though I'm trying to. Tell you all the right words. Waiting on the right words (Black Butterflies and deja vi - The Main)";   
+Quotation[21] = "I was born, I was born with horns. Demons couldn't shake me up. Bring it on, bring it on, bring it on. 'Cause we haven't had enough. Won't give up the fight. Make it out alive. (Make it out alive - ONE OK ROCK)";
+Quotation[22] = "Don't give up, it's gonna be alright. 'Cause I won't let you burn out (Make it out alive - ONE OK ROCK)";
+Quotation[23] = "Time to face uo ti the inevitable (all the world was sleepin') I guess it feels good to know thta I'm not alone (PMA - All Time Low)";   
+Quotation[24] = "So touch me again I feel my shadow dissolving Will you cleanse me with pleasure?  (Rain - Sleep Token)";
+Quotation[25] = "I'm either half awake or half asleep I'm half the man I used to be I don't know much by but I'm tryin' To find a way to live when it feels like I'm dyin' (Grave - Sleeping With Sirens)";
+Quotation[26] = "Why do I carry all this weight when I don't need it?  Keep me away, I'm trying to change 'Cause I've got one foot in the grave And if I slip, I can't be saved from all my demons (Grave - Sleeping With Sirens)";
+Quotation[27] = "The night belongs to you This bough has broken through I must be someone new (Euclid - Sleep Token)";
+Quotation[28] = "So let us pray for more in 2024 We could grow old together We could love one another And then we'll from then be peace forevermore (The future is a foreign land - Ghost)";
+Quotation[29] = "The blessings rain on battles in the heaven's arms And my polite advances won't last for long The eager apprehension is wearing off (Missing Limbs - Sleep Token)";
+Quotation[30] = "And anytime you feel the pain, hey Jude, refrain Don't carry the world upon your shoulders (Hey Jude - Beatles)";
+Quotation[31] = "When does a ripple become a tidal wave? When does the reason become the blame? When does a man become a monster? (Just a man - Epic: The musical)";
+Quotation[32] = "You might be the one to take away the pain and let my mind go quiet And nothing else is quite the same as how I feel when I'm at your side (Emergence - Sleep Token)";
+Quotation[33] = "Too young to get bitter over it all  Too old to retaliate like before Too blessed to be called ungrateful, I know So I'll keep dancing along to the rhythm (Caramel - Sleep Token)";
+Quotation[34] = "And nobody told me I'd be begging for relief When what is silent to you feels like it's screaming to me Well, nobody told me I'd get tired of myself When it all looks like heaven, but it feels like hell (Damocles - Sleep Token)";
+Quotation[35] = "But I can't always be killing the game No golden grand pianos or voices from the shadows Will do anything but feel the same (Damocles - Sleep Token)";
+Quotation[36] = "And if this is love, then I am out of hesitation Head over heels at elevation Walking an inch above the pavement Taking it stride by stride together (Past Self - Sleep Token)";
+Quotation[37] = "If this is real, then I am all up in a frenzy Not like before when I was empty Say that the story we tell is never-ending Taking it side by side together (Past Self - Sleep Token)";
+Quotation[38] = "And the waters are warm Where they used to run freezing Where there used to be storms  My horizon is fleeting, I'm so tired inside I could sleep through a landslide, but I'm finally here And I'm not leaving this time (Infinite Baths - Sleep Token)"; 
+Quotation[39] = " Infinite baths bursting colours when you laugh I've been running since I got here  But now I'm falling into infinite baths (Infinite Baths - Sleep Token)"; 
+
+    
+var Q = Quotation.length;
+  var whichQuotation=Math.round(Math.random()*(Q-1));
+  function showQuotation() {
+document.write(Quotation[whichQuotation]);}
+  
+     function displayQuotation(){
+       
+    document.getElementById('widget').innerHTML =Quotation [whichQuotation];
+     }
+    
+  
+  function displayWidget() {
+        displayQuotation();
+        setTimeout(displayWidget, Q);
+    }
+    displayWidget()
+  
+  </script>
+
+</body>
+</html>
